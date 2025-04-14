@@ -28,5 +28,7 @@ public class ProyectoConErorres {
             this.nombre = apellido;
             this.apellido = apellido;
         }
+
+
     }
 }
