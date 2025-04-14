@@ -22,9 +22,11 @@ public class ProyectoConErorres {
 
     class Persona {
         private String nombre;
+        private String apellido;
 
-        public Persona() {
-            this.nombre = "Sin nombre";
+        public Persona(String nombre, String apellido) {
+            this.nombre = apellido;
+            this.apellido = apellido;
         }
     }
 }
