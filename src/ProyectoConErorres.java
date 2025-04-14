@@ -1,4 +1,5 @@
-
+import java.util.ArrayList;
+import java.util.List;
 
 public class ProyectoConErorres {
 
@@ -10,9 +11,9 @@ public class ProyectoConErorres {
             imprimirNombres(nombres);
         }
 
-        public static imprimirNombres(List<String> lista) {
+        public static void imprimirNombres(List<String> lista) {
             for (String nombre : lista) {
-                System.out.println(nombreCompleto);
+                System.out.println(nombre);
             }
 
             Persona p = new Persona("Juan", "Pérez");
