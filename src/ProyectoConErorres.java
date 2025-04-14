@@ -16,6 +16,7 @@ public class ProyectoConErorres {
             }
 
             Persona p = new Persona("Juan", "Pérez");
+
         }
     }
 
