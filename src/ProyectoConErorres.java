@@ -12,11 +12,13 @@ public class ProyectoConErorres {
         }
 
         public static void imprimirNombres(List<String> lista) {
+            Persona p = new Persona("Juan", "Pérez");
+            lista.add(p.getNombre());
             for (String nombre : lista) {
                 System.out.println(nombre);
             }
 
-            Persona p = new Persona("Juan", "Pérez");
+
 
         }
     }
@@ -30,6 +32,10 @@ public class ProyectoConErorres {
             this.apellido = apellido;
         }
 
+        public String getNombre() {
+            return nombre;
+        }
+
 
     }
-}
+
